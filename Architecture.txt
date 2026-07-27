@@ -1,0 +1,29 @@
+sharkbait-inc/
+│
+├── app/
+│   ├── page.tsx
+│   ├── layout.tsx
+│   └── globals.css
+│
+├── components/
+│   ├── Navbar.tsx
+│   ├── Hero.tsx
+│   ├── Services.tsx
+│   ├── Portfolio.tsx
+│   ├── Stats.tsx
+│   ├── Testimonials.tsx
+│   ├── Pricing.tsx
+│   ├── Contact.tsx
+│   ├── Footer.tsx
+│   ├── Cursor.tsx
+│   ├── ParticleBackground.tsx
+│   ├── OceanScene.tsx
+│   └── Button.tsx
+│
+├── public/
+│   ├── shark.svg
+│   ├── hero-video.mp4
+│   ├── portfolio/
+│   └── images/
+│
+└── lib/
