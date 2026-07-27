@@ -1,0 +1,57 @@
+import { Globe, Search, Megaphone, PenTool, ArrowRight, CheckCircle, } from "lucide-react"; export default function LandingPage() { return (
+{/* HERO */}
+Sharkbait Inc.
+
+Websites That Catch Customers.
+We build modern websites, SEO strategies, and digital marketing campaigns that turn visitors into loyal customers.
+
+Get Free Consultation View Portfolio
+{[ "Mobile Responsive", "SEO Optimized", "Fast Performance", "Built To Convert" ].map(item=>(
+{item}
+))}
+SHARKBAIT
+{/* SERVICES */}
+Everything Your Business Needs
+We help businesses grow through professional websites, branding, marketing, and SEO.
+
+} title="Website Design" desc="Custom responsive websites built for conversions." /> } title="SEO" desc="Increase your rankings and attract more customers." /> } title="Marketing" desc="Google Ads, Facebook Ads and lead generation." /> } title="Branding" desc="Logos, brand identity and professional graphics." />
+{/* WHY */}
+We Don't Build Websites.
+We Build Customer Acquisition Machines.
+Beautiful websites mean nothing if they don't generate business. Every page we create is strategically designed to increase leads, phone calls, appointments, and revenue.
+
+{/* RESULTS */}
+{/* PROCESS */}
+Our Process
+{[ "Discovery", "Strategy", "Design", "Development", "Launch", "Growth" ].map((step,index)=>(
+{index+1}
+{step}
+))}
+{/* TESTIMONIALS */}
+What Clients Say
+{/* CTA */}
+Ready To Grow?
+Let's build a website that works as hard as you do.
+
+Schedule Your Free Consultation
+{/* FOOTER */}
+Sharkbait Inc.
+Website Design • SEO • Branding • Marketing
+
+© 2026 Sharkbait Inc. All Rights Reserved.
+
+); } function ServiceCard({ icon, title, desc }) { return (
+{icon}
+{title}
+{desc}
+
+); } function Stat({ number, text }) { return (
+{number}
+{text}
+); } function Testimonial({ quote, author }) { return (
+★★★★★
+"{quote}"
+
+{author}
+
+); }
